@@ -41,4 +41,7 @@ jdk:
   - oraclejdk7
   - openjdk6
 
+before_script:
+    - ant
+
 script: ant test
